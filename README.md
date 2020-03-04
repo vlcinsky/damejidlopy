@@ -7,12 +7,12 @@ Python Libary for ordering food from site: Dáme Jídlo
 First we need to create class which stores info about customer:
 
 ```
-cust = Customer("jmeno", "prijmeni", "email", "adresa")
+cust = Customer("name", "surname", "email", "address")
 ```
 
 Next we need to search for restaurants in area:
 
 ```
-searched = search(trida)
+searched = search(cust)
 ```
 
