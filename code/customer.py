@@ -4,7 +4,7 @@ class Customer:
 		name(str): Name of the customer,
 		surname(str): Surname of customer,
 		email(str): Email of customer,
-		address(str): Adress of customer
+		address(str): Address of customer
 
 	"""
 	def __init__(self, name, surname, email, address):
