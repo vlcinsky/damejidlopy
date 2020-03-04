@@ -1,17 +1,18 @@
 # Damejidlopy
 
-Knihovna k objednání jídla z portálu Dáme jídlo
+Python Libary for ordering food from site: Dáme Jídlo
 
-## Návod k použití
+## How to use
 
-Prvně musíme udělat třídu která bude obsahovat údaje o zákazníkovi:
+First we need to create class which stores info about customer:
 
 ```
-trida = Customer("jmeno", "prijmeni", "email", "adresa")
+cust = Customer("jmeno", "prijmeni", "email", "adresa")
 ```
 
-Náslědně je nutno vyhledat restaurace v okolí zakáznika:
+Next we need to search for restaurants in area:
+
 ```
-hledani = search(trida)
+searched = search(trida)
 ```
 
