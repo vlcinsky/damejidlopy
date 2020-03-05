@@ -16,3 +16,11 @@ Next we need to search for restaurants in area:
 searched = search(cust)
 ```
 
+Now we can find hole menu from restaurant. 
+Pass the chosen restaurant as a argument
+
+```
+restaurant1 = menu(searched, 13)
+```
+
+##WORK IN PROGRESS
