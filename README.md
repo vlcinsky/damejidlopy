@@ -23,4 +23,4 @@ Pass the chosen restaurant as a argument
 restaurant1 = menu(searched, 13)
 ```
 
-##WORK IN PROGRESS
+## WORK IN PROGRESS
